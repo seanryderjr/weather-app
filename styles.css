@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* changed from 40vh to 100vh */
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  color: #ccc;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  font-family: "Turret Road", cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 2rem; /* added padding */
+  max-width: 500px; /* added max-width */
+}
+
+fieldset {
+  border-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 100%; /* added width */
+}
+
+button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 300;
+  cursor: pointer;
+  margin-top: 1rem; /* added margin-top */
+    padding: 0.5rem;
+    text-align: center;
+    transform: translateX(50px);
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+input {
+  border-radius: 5px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  display: block;
+  width: 213px;
+  text-align: center;
+}
+
+.weather {
+  margin-top: 2rem; /* added margin-top */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+div {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+div:first-child {
+  border-top: none;
+  padding-top: 0;
+}
